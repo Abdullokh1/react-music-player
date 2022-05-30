@@ -1,0 +1,29 @@
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  min-height: 10vh;
+  color: #fff;
+}
+.nav-btn{
+  background-color: rgba(204, 204, 204, 0.455);
+  padding: 10px 25px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  transition: all 0.4s ease;
+  
+}
+.nav-title{
+  font-family: 'Dancing Script';
+  font-size: 45px;
+}
+.nav-icon{
+  margin-left: 10px;
+  transition: all 0.3s ease;
+}
+.nav-btn:hover .nav-icon{
+  transform: rotateY(180deg);
+}
